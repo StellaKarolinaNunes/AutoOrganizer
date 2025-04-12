@@ -106,6 +106,7 @@ AutoOrganizer/
 
 ### 8. Existe uma versão online para testes?
 > **R:** Como o projeto depende da interface gráfica local (Tkinter), ele não roda diretamente em navegadores. No entanto, você pode testar partes do código em sites como:
+
     - 🔗 [Replit](https://replit.com/languages/python3)  
     - 🔗 [Google Colab](https://colab.google/)  
     - 🔗 [PythonAnywhere](https://www.pythonanywhere.com/)   
