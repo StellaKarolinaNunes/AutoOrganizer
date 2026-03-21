@@ -1,0 +1,4 @@
+# Dependências do projeto AutoOrganizer
+
+# Tkinter já vem com Python por padrão, mas você pode especificar versões se necessário em ambientes virtuais específicos.
+# Nenhuma biblioteca externa necessária por enquanto.

@@ -1,128 +1,228 @@
-# AutoOrganizer
+ <h1 align="center">
+       AutorOrganize
+    <br />
+    <br />
+    <a href="https://github.com/StellaKarolinaNunes/AutoOrganizer">
+     <img src="./assets/images/Banner.png " alt="AutoOrganizer Banner " width="100%">
+    </a>
+  </h1>
 
-![python](https://img.shields.io/static/v1?label=python&message=python&color=yellow&style=for-the-badge&logo=python)
-![License](http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge)
-![Status](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
-> Status do Projeto: :heavy_check_mark:
+</div>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/python-02569B?style=for-the-badge&logo=python&logoColor=white" alt="python">
+  <img src="https://img.shields.io/badge/Status-Gratuito-green?style=for-the-badge" alt="Status">
+  <a href="https://github.com/StellaKarolinaNunes/AutoOrganizer/blob/main/LICENSE"><img src="https://img.shields.io/github/license/StellaKarolinaNunes/AutoOrganizer?style=flat&logo=open-source-initiative&logoColor=white" alt="Licença"></a>
+</p>
 
-## Descrição do Projeto
+<br>
 
-> Organizador de Arquivos com Interface Gráfica é uma aplicação desenvolvida em **Python** que permite organizar arquivos **automaticamente** em pastas categorizadas com base nas suas extensões. Com uma interface
-> amigável construída com **Tkinter**, o programa facilita a vida de quem lida com pastas bagunçadas cheias de documentos, imagens, vídeos e outros tipos de arquivo.
-> A proposta é simples: você seleciona uma pasta no seu sistema, e o programa varre todos os arquivos dentro dela, movendo cada um para a subpasta correspondente à sua categoria **(como "IMAGENS", "DOCUMENTOS",
-> VÍDEOS", "CÓDIGO", entre outras)**. Se um arquivo tiver uma extensão desconhecida, ele será movido para a **categoria "OUTROS"**, garantindo que nada fique de fora.
-> Além de funcional, o projeto tem uma **interface moderna**, com centralização automática da janela, design limpo e interação por clique — ideal tanto para usuários técnicos quanto leigos.
+---
 
-## Funcionalidades
+##  Introdução
+O **AutoOrganize** é uma aplicação desenvolvida em **Python** que automatiza a organização de arquivos em pastas categorizadas por extensão. Com uma interface gráfica intuitiva construída em **Tkinter**, o programa facilita a gestão de diretórios desordenados, movendo arquivos de forma inteligente para subpastas como **IMAGENS**, **DOCUMENTOS**, **VÍDEOS** e **CÓDIGO**. A lógica é simples: ao selecionar uma pasta, o sistema varre seu conteúdo e redireciona cada item para sua categoria correspondente. Arquivos com extensões não identificadas são agrupados na pasta **OUTROS**, garantindo uma organização completa. Além de funcional, o projeto preza pela experiência do usuário, oferecendo uma interface moderna, limpa e de fácil interação.
 
-- ✅ Personalização dinâmica de cafés usando o padrão Decorator
-- ✅ Interface gráfica moderna e intuitiva com `Tkinter` + `ttk`
-- ✅ Criação automática de pastas por tipo de arquivo
-- ✅ Organização de arquivos por categoria
+<br>
 
-## Como Rodar a Aplicação :arrow_forward:
+## Por que AutoOrganize?
+Manter arquivos organizados manualmente pode ser uma tarefa exaustiva e demorada. O **AutoOrganize** resolve esse problema ao oferecer:
 
-### Pré-requisitos  
+* **Economia de Tempo:** 
+* **Aumento de Produtividade:** 
+* **Redução de Desordem:** 
 
-- **Python** 3.7 ou superior instalado
-- **Tkinter shutil, os** – Bibliotecas padrão do Python
-- **Ambiente de execução:**  
-  - Se você possui o **python instalado**, pode rodar o código diretamente no seu terminal ou vscode.  
-  - Caso não tenha um ambiente local, utilize **plataformas online** como:  
+<br>
 
-    - 🔗 [Replit](https://replit.com/languages/python3)  
-    - 🔗 [Google Colab](https://colab.google/)  
-    - 🔗 [PythonAnywhere](https://www.pythonanywhere.com/)   
-    - 🔗 [Trinket](https://trinket.io/features/python3)  
-    - 🔗 [Programiz](https://www.programiz.com/python-programming/online-compiler/)
-    - 🔗 [onecompiler](https://onecompiler.com/python)
-    - 🔗 [onlinegdb](https://www.onlinegdb.com/online_python_compiler)
-  
-### Passo a Passo da Instalação
+## A Solução
+O **AutoOrganize** automatiza a organização de arquivos através de um script inteligente que identifica o tipo de cada arquivo e o move para o local correto de forma instantânea.
 
-#### 1. Clone o repositório  
-Abra o terminal e execute o comando abaixo para clonar o projeto:  
-```bash  
-https://github.com/StellaKarolinaNunes/AutoOrganizer
-```
+<br>
 
-#### 2. Acesse o diretório do projeto
+ ## Funcionalidades Principais
+*  Interface gráfica moderna e intuitiva com `Tkinter` + `ttk`
+*  Criação automática de pastas por tipo de arquivo
+*  Organização de arquivos por categoria
 
-```bash  
-cd  AutoOrganizer
-```
+<br>
 
-#### 3. Execute o projeto
-
-```bash  
-python AutoOrganizer.py
-```
-#### 4. Empacotar como .exe (Opcional)
-
-```bash  
-pip install pyinstaller
-pyinstaller --noconfirm --onefile --windowed app.py
-```
-
-
-# Estrutura de Pastas
-
-```bash  
-AutoOrganizer/
-│
-├── AutoOrganizer.py     # Script principal com GUI e lógica
-├── README.md            # Este arquivo
-
-```
-
-## fotos 
+## Gravação do projeto
 
 ![Gravação](https://github.com/user-attachments/assets/2a61656b-e2c3-4d83-9cf1-fe0e8c23369a)
 
 
-## ❓ FAQ / Perguntas Frequentes
 
-### 1. O que é este projeto?
-> **R:** Este é um aplicativo feito em **Python** com interface gráfica usando **Tkinter**, que organiza automaticamente arquivos em uma pasta, separando-os por tipo e extensão (como documentos, imagens, vídeos, e mais).
+ ##  Estrutura de Pastas
+ ```bash
+AutoOrganizer/
+├── assets/                        # Arquivos estáticos
+│   ├── images/                    # Imagens
+│   │   └── Banner.png             # O banner que criamos
+│   ├── styles/                    # Estilos
+│   │   ├── colors.py              # Configurações de cores
+│   │   ├── fonts.py               # Configurações de fontes
+│   │   └── __init__.py            # Marca a pasta como pacote
+│   └── __init__.py                # Marca a pasta como pacote
+├── src/                           # Código fonte
+│   ├── core/                      # Lógica principal
+│   │   ├── file_organizer.py      # Lógica de movimentação de arquivos
+│   │   ├── logger.py              # Sistema de registro de atividades  
+│   │   └── __init__.py            # Marca a pasta como pacote
+│   ├── gui/                       # Interface gráfica
+│   │   ├── main_window.py         # Interface gráfica principal
+│   │   ├── widgets/               # Componentes customizados
+│   │   │   └── __init__.py        # Futuros componentes customizados  
+│   │   └── __init__.py            # Marca a pasta como pacote
+│   ├── utils/                     # Utilitários
+│   │   ├── config.py              # Constantes
+│   │   ├── file_types.py          # Tipos de arquivos e extensões
+│   │   └── __init__.py            # Marca a pasta como pacote
+│   └── __init__.py                # Marca a pasta como pacote
+├── tests/                         # Pasta reservada para testes unitários
+├── AutoOrganizer.py               # Arquivo principal (Ponto de Entrada)
+├── README.md                      # Documentação do projeto
+└── requirements.txt               # Lista de dependências  
+ ```
 
-### 2. Preciso instalar algo para rodar o projeto?
-> **R:** Não! O projeto utiliza apenas **bibliotecas padrão do Python**, como `os`, `shutil` e `tkinter`. Basta ter o **Python 3.6+** instalado no computador.
+<br>
+ 
+##  Instalação
 
-### 3. Como o programa organiza os arquivos?
-> **R:** Ele varre a pasta escolhida e move os arquivos para subpastas com base nas extensões. Por exemplo: `.jpg`, `.png` vão para **IMAGENS**, `.pdf`, `.docx` para **DOCUMENTOS**, e assim por diante.
+### Pré-requisitos para Rodar AutoOrganizer na sua maquina 
 
-### 4. Posso personalizar as categorias ou extensões?
-> **R:** Sim! Você pode editar facilmente o dicionário chamado `EXTENSOES` no código, adicionando ou removendo categorias e extensões conforme sua necessidade.
+* **Python** 3.7 ou superior instalado
+* **Tkinter shutil, os** – Bibliotecas padrão do Python
+* **Ambiente de execução:**  
+* Caso não tenha um ambiente local, utilize **plataformas online** (basta clicar no nome desejado) como: 
+  * [Replit](https://replit.com/languages/python3) 
+  * [Google Colab](https://colab.google/) 
+  * [PythonAnywhere](https://www.pythonanywhere.com/) 
+  * [Trinket](https://trinket.io/features/python3) 
+  * [Programiz](https://www.programiz.com/python-programming/online-compiler/)
+  * [onecompiler](https://onecompiler.com/python)
+  * [onlinegdb](https://www.onlinegdb.com/online_python_compiler)  
+ 
+ <br>
 
-### 5. Como posso rodar o projeto?
-> **R:** Basta executar o script `.py`. Uma janela será aberta permitindo que você escolha a pasta que deseja organizar. O processo é feito com apenas **um clique**.
+ ###  Instalação Rápida
 
-### 6. Funciona em qual sistema operacional?
-> **R:** O projeto é compatível com **Windows, macOS e Linux**, desde que o Python esteja corretamente instalado.
+#### 1. Clone o repositório
+```bash
+git clone https://github.com/StellaKarolinaNunes/AutoOrganizer.git
+```
 
-### 7. Como posso contribuir para o projeto?
-> **R:** Você pode contribuir abrindo **issues** com sugestões, relatando bugs ou enviando **pull requests** com melhorias no código, interface ou novas funcionalidades. Toda ajuda é bem-vinda! 🚀
+#### 2. Entre na pasta
+```bash
+cd AutoOrganizer
+```
 
-### 8. Existe uma versão online para testes?
-> **R:** Como o projeto depende da interface gráfica local (Tkinter), ele não roda diretamente em navegadores. No entanto, você pode testar partes do código em sites como:
+#### 3. Execute o App
+```bash
+python AutoOrganizer.py
+```
 
-    - 🔗 [Replit](https://replit.com/languages/python3)  
-    - 🔗 [Google Colab](https://colab.google/)  
-    - 🔗 [PythonAnywhere](https://www.pythonanywhere.com/)   
-    - 🔗 [Trinket](https://trinket.io/features/python3)  
-    - 🔗 [Programiz](https://www.programiz.com/python-programming/online-compiler/)
-    - 🔗 [onecompiler](https://onecompiler.com/python)
-    - 🔗 [onlinegdb](https://www.onlinegdb.com/online_python_compiler)
+#### 4. Empacotar como .exe (Opcional)
+```bash
+pip install pyinstaller
+pyinstaller --noconfirm --onefile --windowed AutoOrganizer.py
+```
 
-## License/Licença do Projeto  
+#### 5. Empacotar como linux
+```bash
+pip install pyinstaller
+pyinstaller --noconfirm --onefile --windowed AutoOrganizer.py
+```
 
-> [MIT](./License)
+> **Saiba mais**: Acesse o site oficial da documentação Python para guias completos: [ documentação do python ](https://docs.python.org/3/)
 
-## Programador
+<br>
 
-| [<img loading="lazy" src="https://github.com/StellaKarolinaNunes.png" width="115"><br><sub>STELLA KAROLINA</sub>](https://github.com/StellaKarolinaNunes) |
-| :---: |
+##  Roadmap
 
+### Fase 1: Interface & UX
+- [x] **Interface Modular**: Separação de lógica e estilo em arquivos distintos.
+- [ ] **Tema Dark/Light**: Alternância de temas para melhor conforto visual.
+- [ ] **Suporte a Drag & Drop**: Permitir arrastar a pasta diretamente para a janela.
 
+### Fase 2: Funcionalidades Core
+- [ ] **Configuração de Categorias**: Permitir que o usuário crie suas próprias pastas e defina quais extensões vão para cada uma.
+- [ ] **Função Desfazer (Undo)**: Reverter a última organização feita caso o usuário se arrependa.
+- [ ] **Visualização Antecipada**: Mostrar uma lista do que será movido antes de confirmar a ação.
 
+### Fase 3: Avançado
+- [ ] **Organização Agendada**: Opção para rodar o script automaticamente todos os dias às 18:00, por exemplo.
+- [ ] **LOG em Arquivo**: Salvar o histórico de movimentações em um arquivo [.txt](cci:7://file:///home/stella_karolina/StudioProjects/AutoOrganizer/requirements.txt:0:0-0:0) para controle.
+
+<br>
+
+##  Contribuição
+Contribuições são muito bem-vindas! Siga estes passos:
+
+### Como Contribuir
+1. **Fork** este repositório
+2. **Clone** seu fork localmente
+3. **Crie** uma branch para sua feature: `git checkout -b feature/nova-funcionalidade`
+4. **Faça** suas alterações e commits
+5. **Teste** suas modificações
+6. **Abra** um Pull Request detalhado
+
+<br>
+
+###  Diretrizes
+
+- Código limpo e bem comentado
+- Mensagens de commit claras e objetivas
+- Teste todas as funcionalidades
+- Mantenha a documentação atualizada
+- Siga os padrões de código existentes
+
+<br>
+
+##  Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+``` bash
+MIT License - você pode usar, modificar e distribuir livremente,
+mantendo a referência ao repositório original.
+```
+
+ <br>
+
+ ## Contato
+
+ Se você tiver dúvidas, sugestões ou quiser saber mais sobre o projeto, entre em contato:
+
+ - **Principais Desenvolvedores:** [Stella Karolina](https://github.com/StellaKarolinaNunes)
+ - **Repositório:** [HandHelp no GitHub](https://github.com/StellaKarolinaNunes/Tcc_HandHelp)
+ - **LinkedIn:** [Stella Karolina Nunes](https://www.linkedin.com/in/stella-karolina/)
+
+ <br>
+
+## Créditos
+
+O **AutoOrganizer** é construído com o apoio de tecnologias e comunidades incríveis:
+
+- **Linguagem:** [Python](https://www.python.org/)
+- **Interface Gráfica:** [Tkinter](https://docs.python.org/3/library/tkinter.html)  
+- **Manipulação de Arquivos:** [Shutil](https://docs.python.org/3/library/shutil.html) & [OS](https://docs.python.org/3/library/os.html) 
+- **Badges:** [Shields.io](https://shields.io/) 
+- **Empacotamento:** [PyInstaller](https://pyinstaller.org/) 
+- **Assistência de Design & Estrutura:** [Antigravity](https://google.com) 
+- **Ícones:** [Simple Icons](https://simpleicons.org/)
+
+ 
+### Desenvolvimento Principal
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/StellaKarolinaNunes">
+        <img src="https://github.com/StellaKarolinaNunes.png" width="100px" alt="Stella Karolina"/>
+        <br />
+        <sub><b>Stella Karolina (Desenvolvedora)</b></sub>
+        <br />
+      </a>
+    </td>
+  </tr>
+</table>
+ 
